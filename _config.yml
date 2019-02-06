@@ -3,10 +3,9 @@ destination: ./_site
 safe: true
 timezone: Europe/Copenhagen
 encoding: utf-8
-name: mathmagicians
-markdown: kramdown
+title: Kumori
 baseurl: ""
-url: "http://www.mathmagicians.dk"
+url: "http://www.kumori.dk"
 markdown: kramdown
 theme: minima
 backend: false
