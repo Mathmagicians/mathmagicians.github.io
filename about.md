@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Kumori is software for managing software.
+Mathmagicians is a bunch of really good software architects.
