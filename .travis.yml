@@ -1,0 +1,27 @@
+sudo: required
+
+services:
+  - docker
+
+dist: xenial
+addons:
+  apt:
+    packages:
+    - docker
+
+env:
+
+cache: npm
+
+os:
+  - linux
+
+before_install:
+
+before_script:
+  - docker pull mathmagicians/mathmagicians_build:latest
+
+script:
+  - make install build
+
+after_success:
