@@ -1,6 +1,6 @@
 <template>
 <div>
-  <b-jumbotron header="Mathmagicians.dk" lead="++ Really good software architects ++" class="jumbo">
+  <b-jumbotron header="MathMagicians" lead="++ Really good software architects ++" class="jumbo">
   </b-jumbotron>
   <b-row class="options">
     <b-col>
@@ -23,7 +23,7 @@
     <b-col>
       <b-card title="Consulting" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 15rem;" class="mb-2">
         <b-card-text>
-          Hire us when you need a good architect that knows abot the entire software life cycel.<br/><br/>
+          Hire us when you need a good architect that knows abot the entire software life cycle.<br/><br/>
         </b-card-text>
         <b-button href="#" variant="primary">Learn more.</b-button>
       </b-card>
