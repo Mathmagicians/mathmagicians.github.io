@@ -4,6 +4,5 @@ node_modules
 logs
 *.log
 npm-debug.log*
-firebase-debug.log*
-.firebase/
+deployment
 dist

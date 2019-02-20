@@ -1,5 +1,5 @@
 <template>
-<b-jumbotron header="Mathmagicians.dk" lead="Site is not live yet">
+<b-jumbotron header="Mathmagicians.dk" lead="Site is not live yet" class="jumbo">
   <v-icon name="atom" scale="10" />
 </b-jumbotron>
 </template>
@@ -17,4 +17,8 @@ export default {
 </script>
 
 <style scoped>
+.jumbo {
+  margin-top: 60px;
+  text-align: center;
+}
 </style>
