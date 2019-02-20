@@ -6,21 +6,14 @@
     </b-navbar-brand>
   <b-collapse is-nav id="nav_collapse">
     <b-navbar-nav>
-      <b-nav-item to="/about">
-        <v-icon name="paw" /> About</b-nav-item>
     </b-navbar-nav>
   </b-collapse>
 </b-navbar>
 </template>
 
 <script>
-import Icon from 'vue-awesome/components/Icon'
-import 'vue-awesome/icons/paw'
 export default {
-  name: 'navigation',
-  components: {
-    'v-icon': Icon
-  }
+  name: 'navigation'
 }
 </script>
 

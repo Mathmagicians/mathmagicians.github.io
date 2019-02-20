@@ -1,32 +1,31 @@
 <template>
 <div>
-  <b-jumbotron header="Mathmagicians.dk" lead="" class="jumbo">
+  <b-jumbotron header="Mathmagicians.dk" lead="++ Really good software architects ++" class="jumbo">
   </b-jumbotron>
   <b-row class="options">
     <b-col>
-      <b-card title="Card Title" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+      <b-card title="Products" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 15rem;" class="mb-2">
         <b-card-text>
-          Some text will come here.
+          Kumori helps you generate forecast for your services based on automatic architecture, code and process reviews.<br/><br/>
         </b-card-text>
-        <b-button href="#" variant="primary">Go somewhere</b-button>
+        <b-button href="#" variant="primary">Learn more.</b-button>
       </b-card>
     </b-col>
     <b-col>
-      <b-card title="Card Title" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+      <b-card title="Services" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 15rem;" class="mb-2">
         <b-card-text>
-          Some text will come here.
+          Let us setup and run Kumori for one or all of your services.<br/><br/>
         </b-card-text>
 
-        <b-button href="#" variant="primary">Go somewhere</b-button>
+        <b-button href="#" variant="primary">Learn more.</b-button>
       </b-card>
     </b-col>
     <b-col>
-      <b-card title="Card Title" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+      <b-card title="Consulting" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 15rem;" class="mb-2">
         <b-card-text>
-          Some text will come here.
+          Hire us when you need a good architect that knows abot the entire software life cycel.<br/><br/>
         </b-card-text>
-
-        <b-button href="#" variant="primary">Go somewhere</b-button>
+        <b-button href="#" variant="primary">Learn more.</b-button>
       </b-card>
     </b-col>
   </b-row>
@@ -47,13 +46,11 @@ export default {
 
 <style scoped>
 .jumbo {
-  font-family: 'Gloria Hallelujah', cursive;
   margin-top: 60px;
   text-align: center;
 }
 
 .options {
-  font-family: 'Gloria Hallelujah', cursive;
   margin: 0 60px 60px 60px;
 }
 
@@ -61,8 +58,8 @@ export default {
   background-color: transparent;
   border: 0;
   color: #ffffff;
-  margin: 0 auto; /* Added */
-float: none; /* Added */
-margin-bottom: 10px; /* Added */
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 </style>
