@@ -1,7 +1,36 @@
 <template>
-<b-jumbotron header="Mathmagicians.dk" lead="Site is not live yet" class="jumbo">
-  <v-icon name="atom" scale="10" />
-</b-jumbotron>
+<div>
+  <b-jumbotron header="Mathmagicians.dk" lead="" class="jumbo">
+  </b-jumbotron>
+  <b-row class="options">
+    <b-col>
+      <b-card title="Card Title" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+        <b-card-text>
+          Some text will come here.
+        </b-card-text>
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+    </b-col>
+    <b-col>
+      <b-card title="Card Title" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+        <b-card-text>
+          Some text will come here.
+        </b-card-text>
+
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+    </b-col>
+    <b-col>
+      <b-card title="Card Title" :img-src="require('../assets/polygon.svg')" img-alt="Image" img-top tag="article" style="max-width: 20rem;" class="mb-2">
+        <b-card-text>
+          Some text will come here.
+        </b-card-text>
+
+        <b-button href="#" variant="primary">Go somewhere</b-button>
+      </b-card>
+    </b-col>
+  </b-row>
+</div>
 </template>
 
 <script>
@@ -18,7 +47,22 @@ export default {
 
 <style scoped>
 .jumbo {
+  font-family: 'Gloria Hallelujah', cursive;
   margin-top: 60px;
   text-align: center;
+}
+
+.options {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 0 60px 60px 60px;
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  margin: 0 auto; /* Added */
+float: none; /* Added */
+margin-bottom: 10px; /* Added */
 }
 </style>
