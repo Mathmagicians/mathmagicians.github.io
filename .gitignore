@@ -1,8 +1,11 @@
-.DS_Store
 node_modules
-/dist
-logs
-*.log
-npm-debug.log*
-deployment
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
 dist
+.DS_Store
+.fleet
+.idea
